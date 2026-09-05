@@ -1,0 +1,11 @@
+{
+  "name": "scholarship-eligibility-portal",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server --cache .npm-cache && npm install --prefix client --cache .npm-cache",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}
