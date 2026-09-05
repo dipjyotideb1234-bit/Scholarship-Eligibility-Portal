@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+
+# Local runtime data and caches
+.npm-cache/
+.localappdata/
+.node-gyp/
+server/scholarships.db
+
+# Local secrets
+.env
+server/.env
+client/.env
