@@ -1,5 +1,7 @@
 # Scholarship Eligibility Portal
 
+Students often face difficulties navigating lengthy scholarship notices, especially when understanding eligibility criteria, required documents, and deadlines. This portal matches student profiles against clearly defined scholarship rules and explains the results plainly.
+
 ## Start it locally
 
 1. Install [Node.js LTS](https://nodejs.org/).
